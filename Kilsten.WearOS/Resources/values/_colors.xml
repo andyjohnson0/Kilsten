@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Backgrounds -->
+	<color name="_kilsten_wear_wearable_backgroundTransparent">#00000000</color>
+	<color name="_kilsten_wear_wearable_backgroundOpaque">#FF000000</color>
+	<color name="_kilsten_wear_wearable_backgroundSemiOpaque">#BB000000</color>
+	<color name="_kilsten_wear_wearable_backgroundTranslucent">#AA000000</color>
+
+</resources>

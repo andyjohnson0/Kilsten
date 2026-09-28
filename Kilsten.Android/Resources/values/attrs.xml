@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="ZoomLayout">
+		<attr name="minZoomLevel" format="float"/>
+		<attr name="maxZoomLevel" format="float"/>
+		<attr name="debugInfoShow" format="boolean"/>
+		<attr name="debugInfoColor" format="color"/>
+	</declare-styleable>
+</resources>

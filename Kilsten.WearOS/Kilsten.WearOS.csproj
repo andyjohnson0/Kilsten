@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Kilsten.WearOS</AssemblyName>
+    <RootNamespace>Kilsten.WearOS</RootNamespace>
+	<Authors>Andrew Johnson</Authors>
+	<Version>2.0.0</Version>
+	<AssemblyVersion>2.0.0</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <SupportedOSPlatformVersion>23.0</SupportedOSPlatformVersion>
+    <AssemblyTitle>Kilsten.WearOS</AssemblyTitle>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Resources\drawable\_kilsten_wear_button_round.xml" />
+    <None Remove="Resources\layout\_kilsten_wear_wearable_alert_dialog.xml" />
+    <None Remove="Resources\layout\_kilsten_wear_wearable_task_dialog.xml" />
+    <None Remove="Resources\values\colors.xml" />
+    <None Remove="Resources\values\_colors.xml" />
+    <None Remove="Resources\values\_dimens.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.8.0" />
+    <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.2.2" />
+    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.19.0.1" />
+    <PackageReference Include="Xamarin.AndroidX.Wear" Version="1.4.0.2" />
+    <PackageReference Include="Xamarin.AndroidX.Wear.RemoteInteractions" Version="1.2.0.3" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Public: Accent colours to mimic Wear OS system buttons -->
+	<color name="kilsten_wear_wearable_systemAccent">#005A9E</color>
+	<color name="kilsten_wear_wearable_systemGrey">#808080</color>
+	<color name="kilsten_wear_wearable_systemDarkGrey">#333333</color>
+
+</resources>

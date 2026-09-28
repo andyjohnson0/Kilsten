@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:deviceIds="wear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_kilsten_wear_wearable_backgroundSemiOpaque">
+    <TextView
+        android:id="@+id/_kilsten_wear_titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:textStyle="bold"
+        style="@android:style/TextAppearance.Large"/>
+    <ProgressBar
+        android:id="@+id/_kilsten_wear_progressPb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:indeterminateTint="@android:color/white"/>
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/_kilsten_wear_cancelBtn"
+        android:layout_width="@dimen/_kilsten_wear_wearable_buttonSize"
+        android:layout_height="@dimen/_kilsten_wear_wearable_buttonSize"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:scaleType="center"
+        android:src="@drawable/_kilsten_wear_ic_close"
+        android:background="@drawable/_kilsten_wear_button_round"
+        android:backgroundTint="?android:attr/colorAccent"
+        android:tooltipText="@android:string/cancel"
+        android:contentDescription="@android:string/cancel"/>
+</FrameLayout>

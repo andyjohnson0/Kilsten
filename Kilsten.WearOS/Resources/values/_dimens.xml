@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Standard touch target size in Wear OS quality guidelines -->
+	<dimen name="_kilsten_wear_wearable_buttonSize">48dp</dimen>
+
+	<!-- Dialog margins -->
+	<dimen name="_kilsten_wear_wearable_marginSizeLarge2">32dp</dimen>
+	<dimen name="_kilsten_wear_wearable_marginSizeLarge">16dp</dimen>
+	<dimen name="_kilsten_wear_wearable_marginSizeMedium">10dp</dimen>
+	<dimen name="_kilsten_wear_wearable_marginSizeSmall">4dp</dimen>
+	<dimen name="_kilsten_wear_wearable_marginSizeSmall2">2dp</dimen>
+
+</resources>
